@@ -1,0 +1,48 @@
+.custom-header {
+  position: relative;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  user-select: none;
+}
+
+.header-bar {
+  width: 480px;
+  height: 60px;
+  background-color: #f4e6ce; /* Light cream from background */
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 100px;
+}
+
+.header-text {
+  font-family: "Rubik", sans-serif;
+  color: #6b3d1d; /* Deep warm brown for text */
+  font-size: 2.4rem;
+  font-weight: bold;
+  padding-left: 90px;
+  letter-spacing: 1px;
+}
+
+.header-logo {
+  position: absolute;
+  left: 63%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #f4e6ce; /* match logo background */
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.header-logo:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
