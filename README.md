@@ -32,6 +32,18 @@ A modern and interactive web application for analyzing Israel’s import statist
 
 ## 📦 Installation
 
+Follow these steps to run the project locally:
+
+### 1. Prerequisites
+
+- Make sure you have **Node.js** installed ([Download Node.js](https://nodejs.org/))
+- Recommended Node.js version: **v14+**
+- Recommended editor: **Visual Studio Code**
+
+### 2. Clone the Repository
+
+Open your terminal in Visual Studio Code and run:
+
 ```bash
 git clone https://github.com/omersap10/Israel-Imports.git
 cd Israel-Imports
