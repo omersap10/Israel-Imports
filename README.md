@@ -33,7 +33,7 @@ A modern and interactive web application for analyzing Israel’s import statist
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/<your-username>/Israel-Imports.git
+git clone https://github.com/omersap10/Israel-Imports.git
 cd Israel-Imports
 npm install
 npm start
